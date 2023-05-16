@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+	<title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<section class="notifications">
+				<div class="notifications__inner">
+					<div class="notifications__heading-line">
+						<h2 class="notifications__title">Notifications
+							<span class="notifications__counter">0</span>
+						</h2>
+						<p class="notifications__mark-all">Mark all as read</p>
+					</div>
+					<div class="notifications__content">
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-mark-webber.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Mark Webber</a>
+										<span>reacted to your recent post</span>
+										<a class="notify-list__link notify-list__link--post-name" href="#">My first tournament
+											today!</a>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>1m</span> ago
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-angela-gray.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Angela Gray</a>
+										<span>followed you</span>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>5m</span> ago
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-jacob-thompson.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Jacob Thompson</a>
+										<span>has joined your group</span>
+										<a class="notify-list__link notify-list__link--group-name" href="#">Chess Club</a>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>1 day</span> ago
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Rizky Hasanuddin</a>
+										<span>sent you a private message</span>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>5 days</span> ago
+									</p>
+									<a class="notify-list__link notify-list__link--private-message" href="#">
+										Hello, thanks for setting up the Chess
+										Club. I've been a member for a few weeks
+										now and I'm already having lots of fun
+										and improving my game.
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-kimberly-smith.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Kimberly Smith</a>
+										<span>commented on your picture</span>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>1 week</span> ago
+									</p>
+								</div>
+								<a class="notify-list__picture" href="#">
+									<img src="./assets/images/image-chess.webp" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-nathan-peterson.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Nathan Peterson</a>
+										<span>reacted to your recent post</span>
+										<a class="notify-list__link notify-list__link--post-name" href="#">
+											5 end-game strategies to increase your win rate
+										</a>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>2 weeks</span> ago
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="notify-list" id="notify-list">
+							<div class="notify-list__inner">
+								<div class="notify-list__user-photo">
+									<img src="./assets/images/avatar-anna-kim.webp" alt="User image">
+								</div>
+								<div class="notify-list__detail">
+									<div class="notify-list__text">
+										<a class="notify-list__link notify-list__link--user-name" href="#">Anna Kim</a>
+										<span>left the group</span>
+										<a class="notify-list__link notify-list__link--group-name" href="#">Chess Club</a>
+										<span class="notify-list__icon"></span>
+									</div>
+									<p class="notify-list__received-time">
+										<span>2 weeks</span> ago
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>
