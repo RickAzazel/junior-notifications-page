@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
 *,
 ::after,
 ::before {
@@ -195,7 +197,7 @@ body {
 	width: 44px;
 	height: 44px;
 	border-radius: 7px;
-	border: 2px solid white;
+	border: 2px solid var(--notify-list-picture-border-color);
 	margin-left: 5px;
 }
 
